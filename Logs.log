@@ -1,0 +1,122 @@
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 871548177a7032f6f9fb13d3ead0876ea0e721b229348e51e6c5537086ef903d
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "name": "Juan Ramakrishna",
+    "email": "testUser7@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Server: nginx
+Date: Wed, 04 Aug 2021 22:12:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: https://gorest.co.in/public/v1/users/2543
+ETag: W/"689ef8920fae964ef2e1124212a7f654"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 65e2b1a4-56fe-4f90-9e4f-429b7788fc0d
+X-Runtime: 0.032034
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+
+{
+    "meta": null,
+    "data": {
+        "id": 2543,
+        "name": "Juan Ramakrishna",
+        "email": "testUser7@gmail.com",
+        "gender": "male",
+        "status": "active"
+    }
+}
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v1/users/2543
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2543
+Headers:		Authorization=Bearer 871548177a7032f6f9fb13d3ead0876ea0e721b229348e51e6c5537086ef903d
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 04 Aug 2021 22:12:38 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"689ef8920fae964ef2e1124212a7f654"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 586d8199-6861-4fa9-afe8-32b3b031b437
+X-Runtime: 0.014467
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+{
+    "meta": null,
+    "data": {
+        "id": 2543,
+        "name": "Juan Ramakrishna",
+        "email": "testUser7@gmail.com",
+        "gender": "male",
+        "status": "active"
+    }
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v1/users/2543
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 871548177a7032f6f9fb13d3ead0876ea0e721b229348e51e6c5537086ef903d
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx
+Date: Wed, 04 Aug 2021 22:12:40 GMT
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Cache-Control: no-cache
+X-Request-Id: 159e8dd8-6764-4cee-8725-8661afc8fd31
+X-Runtime: 0.016657
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
