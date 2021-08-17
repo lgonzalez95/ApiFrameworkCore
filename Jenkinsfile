@@ -1,5 +1,8 @@
 pipeline{
     agent any
+    {
+        maven "M3"
+    }
     stages{
         stage("clean"){
             steps{
